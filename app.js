@@ -36,8 +36,12 @@ function sendBirthdayEmails() {
                 text: `Hoje é o aniversário de ${birthdayUser.name}!`
               };
               transporter.sendMail(mailOptions, (err, data) => {
-                if (err) console.log(err);
-                else console.log('Email enviado!');
+                if (err){
+                  console.log(err);
+                } 
+                else {
+                  console.log('Email enviado!');
+                }
               });
             }
           });
@@ -48,7 +52,7 @@ function sendBirthdayEmails() {
 }
 
 
-cron.schedule('43 11 * * *', sendBirthdayEmails);
+cron.schedule('41 12 * * *', sendBirthdayEmails);
 
 
 
