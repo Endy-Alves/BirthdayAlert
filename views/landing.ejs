@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="landing.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+</head>
+<body>
+    <h1>Lista de Funcionarios</h1>
+    <ul>
+        <% users.forEach(user => { %>
+        <li>
+           <h2>Funcionario: <p> <%= user.username %></p></h2> 
+           <h2>Data de nascimento:<p> <%= user.birthday instanceof Date ? user.birthday.toLocaleDateString('pt-BR') : 'N/A' %></p></h2>
+        </li>
+        <% }) %>
+    </ul>
+
+<style>
+   
+ </style>
+</body>
+</html>
