@@ -15,10 +15,14 @@
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
+    "googleapis": "^137.1.0",
     "mongodb": "^6.6.2",
     "mongoose": "^8.4.0",
     "node-cron": "^3.0.3",
     "nodemailer": "^6.9.13",
-    "nodemailer-sendgrid-transport": "^0.2.0"
+    "nodemailer-mailgun-transport": "^2.1.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemailer-sendinblue-transport": "^2.0.1",
+    "sendmail": "^1.6.1"
   }
 }
