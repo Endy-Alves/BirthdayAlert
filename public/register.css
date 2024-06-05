@@ -1,38 +1,39 @@
-body, html{
+body,
+html {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     width: 100%;
 }
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #004f40;
     color: #edbb6c;
     height: 25em;
-    width: 15em;
+    width: 20em;
 }
-input{
+input {
     margin-top: 10px;
     padding: 10px;
 }
-input::placeholder{
+input::placeholder {
     font-size: 15px;
 }
 
-button{
+button {
     height: 3em;
     background-color: #edbb6c;
     margin-top: 1em;
     border: 1px solid black;
 }
-button:hover{
+button:hover {
     background-color: #caa05c;
     cursor: pointer;
 }
-a{
+a {
     margin-top: 10px;
     padding: 10px;
     background-color: #edbb6c;
@@ -40,7 +41,13 @@ a{
     color: black;
     border: 1px solid black;
 }
-.a:hover{
+.a:hover {
     background-color: #caa05c;
     cursor: pointer;
+}
+div{
+    display: contents;
+}
+label{
+    font-size: 20px;
 }
